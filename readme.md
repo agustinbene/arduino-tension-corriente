@@ -1,9 +1,10 @@
-![](Fuente.001.png)
 # Proyecto Integrador
+
+[![utn](https://github.com/agustinbene/arduino-tension-corriente/blob/master/informe/Fuente.001.png?raw=true "utn")](https://www.frsn.utn.edu.ar/frsn/ "utn")
 
 ## Diseño y construcción de una fuente de alimentación
 
-####Integrantes: 
+#### Integrantes: 
 
 - Benegas, Agustín
 - Grageda, Gonzalo 
@@ -64,7 +65,8 @@ Diseño
 
 Teniendo en cuenta las consideraciones anteriores se diseñó el siguiente circuito: 
 
-![](Fuente.002.png)
+![Schematic](https://github.com/agustinbene/arduino-tension-corriente/blob/master/informe/Schematic_Fuente_2021-01-19.png?raw=true "Schematic")
+
 El circuito consta de dos partes. En la entrada de 220V a 50Hz se utiliza un transformador con dos bobinados de salida los cuales dividen en dos el circuito general. 
 
 Por un lado, se tiene la salida del transformador (T1) de 24 V. Esta parte contiene el circuito rectificador con el regulador de tensión. Consta de un puente de diodos conectados en paralelo con un filtro capacitivo, seguido del circuito regulador con el integrado (LM317). 
@@ -127,7 +129,7 @@ La caja se modificó para la colocación de el interruptor encendido/apagado de 
 
 A continuación, se muestra la fuente en su versión final: 
 
-![](Fuente.003.png)
+![Fuente](https://github.com/agustinbene/arduino-tension-corriente/blob/master/informe/Fuente.003.png?raw=true "Fuente")
 
 Ensayo y puesta en marcha 
 
@@ -139,7 +141,7 @@ Todos los componentes anduvieron durante el ensayo, siempre exponiéndolos a la 
 
 A continuación, se muestra la medición de corriente de salida con el osciloscopio. 
 
-![](Fuente.004.png)
+![Prueba en osciloscopio](https://github.com/agustinbene/arduino-tension-corriente/blob/master/informe/Fuente.004.png?raw=true "Prueba en osciloscopio")
 
 Conclusión 
 
