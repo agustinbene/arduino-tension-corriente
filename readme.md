@@ -1,4 +1,4 @@
-# Proyecto Integrador
+# Proyecto Integrador 2° Año - Dispositivos electronicos
 
 [![utn](https://github.com/agustinbene/arduino-tension-corriente/blob/master/informe/Fuente.001.png?raw=true "utn")](https://www.frsn.utn.edu.ar/frsn/ "utn")
 
